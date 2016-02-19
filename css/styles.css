@@ -8,7 +8,8 @@
 
 body {
     background-color: black;
-
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -134,9 +135,15 @@ ul, li, p , h1, h2{
 @media only screen and (min-width : 768px) and (max-width : 1999px) {
 /* Styles */
 
+  body {
+      background-color: white;
+  }
 
   .wrapper {
     width: 100%
+    padding: 0;
+    margin: 0;
+    background-color: white;
   }
 
   .header-xs {
@@ -147,17 +154,18 @@ ul, li, p , h1, h2{
     position: absolute;
     top: 40px;
     left: 40px;
-    padding: 1em;
+    padding: 0;
   }
 
   .brand {
-    /*font-size: 1em;
-    padding: 1em;*/
+    font-size: 1em;
+    padding: 1em 1.5em .5em 1.5em;
   }
 
   .nav {
-    /*font-size: .8em;
-    padding: 1em;*/
+    font-size: .8em;
+    padding: 0em 1.5em 3em 1.5em;
+    color: #6c6c6b;
   }
 
   .photo .photo-caption {
@@ -171,19 +179,33 @@ ul, li, p , h1, h2{
   .photo-caption-xs {
     display: none;
   }
-
+  .featured-image {
+    display: none;
+  }
   .featured-press {
-    width: 49%;
-    height: 400px;
-    margin: 1% 1% 1% 0;
+    width: 49.25%;
+    height: 220px;
+    margin: 1em .8em 0 0;
     float: left;
+    background-color: #000;
+    color: #fff;
+    font-size: .8em;
+    padding: 5em 3em 5em 3em;
+    text-transform: uppercase;
+    text-align: center;
   }
 
+
+
   .about {
-    width: 49%;
-    height: 400px;
-    margin: 1% 0 1% 1%;
+    width: 49.25%;
+    height: 220px;
+    margin: 1em 0 0 0;
     float: right;
+    background-color: #000;
+    color: #fff;
+    font-size: .8em;
+    padding: 3em;
 }
 
   .photo {
