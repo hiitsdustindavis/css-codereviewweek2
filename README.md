@@ -1,10 +1,7 @@
-# css_codereview_week1
+# css_codereview_week2
 ## Synopsis
-Create a webpage that showcases a product for sale.
-
-**_The following must be fulfilled:_**
-
 Create a responsive webpage that is similar to http://www.anderssonwise.com/.
+**_The following must be fulfilled:_**
 
 It must be fluid and have breakpoints at three different screen sizes.
 
