@@ -13,7 +13,7 @@ DO NOT USE ANY FRAMEWORKS OR GRID SYSTEMS!. Create your own breakpoints!
 
 ## Code Example
 ####Preview Link Below
-http://hiitsdustindavis.github.io/css_codereview_week2/
+http://hiitsdustindavis.github.io/css-codereviewweek2/
 
 ## Technologies Used
 HTML CSS
